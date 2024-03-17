@@ -3,19 +3,11 @@
 #include<iostream>
 using namespace std;
 main(){
-    int i,n,AP;                              // number(where)
-    int start=1,difference=2;                //start(1,2,3,4..) , difference(2,3,4..)
-    cout<<"Enter the Value of n: = ";
-    cin>>n;
-
-    for(i=1; i<=n; i++){
-        AP=1+(i-1)*2;           //AP Formula
-        cout<<AP;
-
-        if (i < n) {
-            cout << ", ";
-        }
+   int a=1,n;
+   cout<<"Enter The Term of AP: ";
+   cin>>n;
+    for(int i=1; i<=n; i++){
+        cout<<a<<endl;
+        a+=3;
     }
-
-    cout << endl;
 }
