@@ -1,22 +1,15 @@
-#include <iostream>
-
+                                    //Display this GP - 1,2,4,8,16,32,.. upto ‘n’ terms. n 
+#include<iostream>
 using namespace std;
+main(){
+   int a=1,n,d;                       //a= start,  n= term
+   cout<<"Enter The Term of GP: ";
+   cin>>n;
+   cout<<"Enter The Number multiply of GP: ";
+   cin>>d;
 
-main() {
-    int n;
-    cout << "Enter the number of terms: ";
-    cin >> n;
-
-    int term = 1;
-    int ratio = 2;
-
-    cout << "Geometric Progression up to " << n << " terms:\n";
-
-    for(int i = 0; i < n; ++i) {
-        cout << term;
-        term *= ratio; 
-        if(i < n - 1)
-            cout << ", ";
+    for(int i=1; i<=n; i++){
+        cout<<"Geometric Progression: "<<a<<endl;
+        a*=d;                       //a=(1*2=2,2*2=4,4*2=8)
     }
-
 }
