@@ -1,14 +1,12 @@
 #include<iostream>
 using namespace std;
 main(){
-    int n,sum=0;            //n=54
-    cout<<"Enter the number of Digit: ";
-    cin>>n;
+    int n=4556,sum=0;           
 
     while(n>0){
-        sum=sum+n%10;               //sum=0+(54%10=4),sum=4 reminder
-                                    //next time, sum=4+(5%10=5), sum=9 reminder
-        n=n/10;                     //n=54/10.n=5.4,n=5
+        sum=sum+n%10;               //sum=0+(4556%10=6),sum=6 reminder
+                                    //next time, sum=6+(455%10=5), sum=5 reminder
+        n=n/10;                     //n=4556/10
     }
-    cout<<"Sum of Digit: "<<sum;       //sum=9
+    cout<<"Sum of Digit: "<<sum;       //sum=20
 }
