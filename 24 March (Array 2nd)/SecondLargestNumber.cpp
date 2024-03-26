@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main() {
+main() {
     int array[5] = {7,4,2,8,9};
     
     int largest = array[0];        //7
@@ -17,6 +17,5 @@ int main() {
     }
 
     cout << "Second largest element: " << secondLargest << endl;
-    
-    return 0;
+
 }
