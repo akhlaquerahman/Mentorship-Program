@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+ main(){
     int a[5]={15,14,20,24,18};
     int min=a[0];
 
@@ -10,5 +10,5 @@ int main(){
         }
     }
     cout<<"The Minimum Value Of Array: "<<min;
-    return 0;
+
 }
