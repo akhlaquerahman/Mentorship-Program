@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+ main(){
     int a[5]={6,8,5,4,9};
     int product=1;
 
@@ -8,5 +8,4 @@ int main(){
         product=product*a[i];
     }
     cout<<"The Product Of This Element: "<<product;
-    return 0;
 }
