@@ -17,3 +17,9 @@ main(){
     }
     
 }
+                            /*Output
+                            Enter the three Number: 6
+                            3
+                            4
+                            Greatest number is: 6
+                            */
