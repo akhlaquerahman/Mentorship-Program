@@ -13,3 +13,10 @@ main(){
         cout<<"It is not divisible both are 5 and 3 ";
     }
 }
+                        /*Output
+                        Enter a Number: 10
+                        It is not divisible both are 5 and 3 
+
+                        Enter a Number: 15
+                        It is divisible both are 5 and 3 
+                        */
