@@ -6,7 +6,7 @@ main(){
     int a,b,c;
     cout<<"Enter the three Number: ";
     cin>>a>>b>>c;
-    if(a>b && a>>c){
+    if(a>b && a>c){
         cout<<"Greatest number is: "<<a;
     }
     else if(b>c && b>a){

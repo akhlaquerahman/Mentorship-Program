@@ -18,4 +18,11 @@ main() {
      else {
         cout << "The character is not an alphabet." <<endl;
     }
-}                         
+}            
+                            /*Output
+                            Enter a character: A
+                            The character is Capital an ALPHABET.
+
+                            Enter a character: a
+                            The character is small an alphabet.
+                            */             
