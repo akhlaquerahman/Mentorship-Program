@@ -12,4 +12,11 @@ main(){
         cout<<"It is not three digit number: ";
     }
 
-}                        
+}        
+                            /*Output
+                            Enter a Number: 12
+                            It is not three digit number:
+
+                            Enter a Number: 123
+                            It is three digit number:  
+                            */                
