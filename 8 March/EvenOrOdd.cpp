@@ -1,3 +1,5 @@
+                                //Take positive integer input and tell if it is even or odd.
+
 #include<iostream>
 using namespace std;
 main(){
@@ -11,3 +13,10 @@ main(){
         cout<<"It is Odd";
     }
 }
+                                    /* Output
+                                    Enter an Integer: = 5
+                                    It is Odd.
+
+                                    Enter an Integer: = 4
+                                    It is Even
+                                    */
