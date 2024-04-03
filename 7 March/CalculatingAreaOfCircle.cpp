@@ -12,8 +12,8 @@ main(){
     cout<<"Area of Circle: = "<<Area;
 }
 
-                            /*  Output:-
-                            
+                            /*  Output
+
                                 Enter the radius: = 5
                                 Area of Circle: = 78.5
                             */
