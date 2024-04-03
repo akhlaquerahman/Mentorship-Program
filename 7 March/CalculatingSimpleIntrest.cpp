@@ -16,7 +16,7 @@ main(){
     cout<<"Your Simple Intrest: = "<<SimpleIntrest;
 }
 
-                                    /*  Output:-
+                                    /*  Output.
                                     Enter the Principle Amount: = 500
                                     Enter the Intrest Rate (in percentage): = 10
                                     Enter the Time (in year): = 1
