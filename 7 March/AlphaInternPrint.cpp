@@ -6,7 +6,8 @@ int main(){
     cout<<"Alpha"<<endl<<"Intern";
 }
 
-                            /* Output
+                         /* Output
+                         
                             Alpha
                             Intern
                                     */
