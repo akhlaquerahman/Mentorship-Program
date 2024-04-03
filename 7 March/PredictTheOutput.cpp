@@ -8,6 +8,6 @@ cout<<b<<endl;
 cout<<a<<endl;
 }
 
-                         /* Output
+                            /*   Output
                                     5
-                                    0  */
+                                    0    */
