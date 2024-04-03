@@ -23,7 +23,7 @@ main()
     cout<<"Your percentage is: = "<<percentage<<"%";
 }
 
-                                   /*            Output:-
+                                   /*            Output.
                                     Enter the Marks of Mathematics: 92
                                     Enter the Marks of Physics: 95
                                     Enter the Marks of Chemistry: 99
