@@ -13,3 +13,13 @@ main(){
         a*=d;                       //a=(1*2=2,2*2=4,4*2=8)
     }
 }
+                        /*  Output.
+                            Enter The Term of GP: 6
+                            Enter The Number multiply of GP: 2
+                            Geometric Progression: 1
+                            Geometric Progression: 2
+                            Geometric Progression: 4
+                            Geometric Progression: 8
+                            Geometric Progression: 16
+                            Geometric Progression: 32
+                        */
