@@ -1,4 +1,4 @@
-             //Print the table of n
+             //Print the table of n.
 
 #include<iostream>
 using namespace std;
@@ -12,4 +12,17 @@ main(){
             cout<<n<<" "<<"x"<<" "<<i<<" = "<<table<<endl;
         }
         
-}
+}   
+                /*  Output
+                    Enter the Value Of n: 6
+                    6 x 1 = 6
+                    6 x 2 = 12
+                    6 x 3 = 18
+                    6 x 4 = 24
+                    6 x 5 = 30
+                    6 x 6 = 36
+                    6 x 7 = 42
+                    6 x 8 = 48
+                    6 x 9 = 54
+                    6 x 10 = 60
+                */
