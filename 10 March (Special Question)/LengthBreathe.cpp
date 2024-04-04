@@ -25,3 +25,13 @@ using namespace std;
     }
 
 }
+
+                         /*   Output
+                            Enter the length of the rectangle: 5
+                            Enter the breadth of the rectangle: 4
+                            The area is greater than the perimeter.
+
+                            Enter the length of the rectangle: 4
+                            Enter the breadth of the rectangle: 3
+                            The perimeter is greater than the area.
+                         */
