@@ -22,3 +22,21 @@ int main() {
 
     return 0;
 }
+                                /*  Output
+                                Enter coordinates for point 1 (x1 y1): 4
+                                2
+                                Enter coordinates for point 2 (x2 y2): 6
+                                3
+                                Enter coordinates for point 3 (x3 y3): 8
+                                4
+                                The three points are collinear.
+                                
+
+                                Enter coordinates for point 1 (x1 y1): 1
+                                3
+                                Enter coordinates for point 2 (x2 y2): 6
+                                2
+                                Enter coordinates for point 3 (x3 y3): 3
+                                7
+                                The three points are not collinear.
+                                */
