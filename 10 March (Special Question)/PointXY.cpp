@@ -26,3 +26,13 @@ int main() {
 
     return 0;
 }
+
+                        /*  Output
+                        Enter the x-coordinate: 0
+                        Enter the y-coordinate: 1
+                        The point lies on the y-axis.
+
+                        Enter the x-coordinate: 0 
+                        Enter the y-coordinate: 0
+                        The point is at the origin (0, 0).
+                        */
