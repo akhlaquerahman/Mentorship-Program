@@ -9,4 +9,11 @@ main(){
         cout<<"Geometric Progression: "<<a<<endl;
         a*=4;                       //a=(3,3*4=12,12*4=48,)
     }
-}                                       
+}                  
+                        /*  Output
+                            Enter The Term of GP: 3
+                            
+                            Geometric Progression: 3
+                            Geometric Progression: 12
+                            Geometric Progression: 48
+                        */                     
