@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main() {
+ main() {
     int x1, y1, x2, y2, x3, y3;
 
     cout << "Enter coordinates for point 1 (x1 y1): ";
@@ -20,7 +20,6 @@ int main() {
         cout << "The three points are not collinear." << endl;
     }
 
-    return 0;
 }
                                 /*  Output
                                 Enter coordinates for point 1 (x1 y1): 4
@@ -30,7 +29,7 @@ int main() {
                                 Enter coordinates for point 3 (x3 y3): 8
                                 4
                                 The three points are collinear.
-                                
+
 
                                 Enter coordinates for point 1 (x1 y1): 1
                                 3
