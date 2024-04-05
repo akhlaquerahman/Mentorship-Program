@@ -13,7 +13,7 @@ main(){
     }
     cout<<"Factorial: = "<<fact;
 }
-                        /*  Output
+                        /*  Output.
                             Enter the number whose factorial is to be Find: 5
                             Factorial: = 120
                         */
