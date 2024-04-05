@@ -1,3 +1,5 @@
+                                // WAP to count digits of a given number
+
 #include<iostream>
 using namespace std;
 main(){
@@ -12,3 +14,7 @@ main(){
     }
     cout<<"It is Number of Your Digit: "<<count;
 }
+                            /*  Output
+                                Enter The Digit You want to count: 12345     
+                                It is Number of Your Digit: 5
+                            */
