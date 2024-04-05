@@ -1,3 +1,7 @@
+                                //WAP to print the sum of all the even digits of a given number.
+                                //  Sample Input : 4556
+                                //  Output: 10
+
 #include<iostream>
 using namespace std;
 main(){
@@ -12,3 +16,7 @@ main(){
     }
     cout<<"Sum of Digit: "<<sum;       //sum=9
 }
+                        /*  Output
+                            Enter the number of Digit: 4556
+                            Sum of Digit: 20
+                        */
