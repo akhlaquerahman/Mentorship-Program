@@ -9,7 +9,6 @@ int main(){
             cout<<i<<"\n";
         }
     }
-    return 0;
 }
                     /*  Output
                         1
