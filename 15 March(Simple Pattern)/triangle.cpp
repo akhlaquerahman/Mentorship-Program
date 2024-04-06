@@ -1,3 +1,10 @@
+                                        /*  Print the star triangle pattern
+                                            *
+                                            **
+                                            ***
+                                            ****
+                                        */
+
 #include<iostream>
 using namespace std;
 main(){
