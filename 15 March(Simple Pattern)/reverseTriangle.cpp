@@ -1,3 +1,10 @@
+                                /*  Print the reverse star triangle pattern
+                                    ****
+                                    ***
+                                    **
+                                    *
+                                */
+
 #include<iostream>
 using namespace std;
 main(){
