@@ -1,3 +1,11 @@
+                                            /*  PRINT THE STAR PLUS PATTERN (N=ODD)
+                                                  *  
+                                                  *  
+                                                *****
+                                                  *  
+                                                  *  
+                                            */
+
 #include <iostream>
 using namespace std;
 int main() {
