@@ -7,7 +7,7 @@
 
 #include<iostream>
 using namespace std;
-main(){
+int main(){
     int a=4;
 
     for(int i=1; i<=4; i++){            //Row
@@ -16,4 +16,5 @@ main(){
         }
         cout<<endl;
     }
+    return 0;
 }
