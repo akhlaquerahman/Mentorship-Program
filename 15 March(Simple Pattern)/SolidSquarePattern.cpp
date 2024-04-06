@@ -1,3 +1,10 @@
+                                    /*  Print the Solid Square  pattern 
+                                        ****
+                                        ****
+                                        **** 
+                                        **** 
+                                    */
+
 #include<iostream>
 using namespace std;
 main(){
