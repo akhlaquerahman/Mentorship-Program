@@ -1,3 +1,15 @@
+                                /*  Print the following pattern
+                                    Input n = 4
+                                    Output:
+                                    *
+                                    **
+                                    ***
+                                    ****
+                                    ***
+                                    **
+                                    *
+                                */
+
 #include <iostream>
 using namespace std;
 int main() {
