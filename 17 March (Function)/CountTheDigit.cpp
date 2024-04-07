@@ -1,3 +1,5 @@
+//Q3: Write a function to count the number of digits in a number and then print the square of this number
+
 #include<iostream>
 using namespace std;
 void CountTheNumber(int number){
@@ -15,4 +17,7 @@ main(){
     CountTheNumber(a);
 
 }
-
+                            /*  Output
+                                Number Of Digit: 5
+                                Number Of Square: 152399025
+                            */
