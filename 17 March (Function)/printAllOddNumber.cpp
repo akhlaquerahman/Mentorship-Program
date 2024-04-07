@@ -1,3 +1,5 @@
+        //Q2: Given two numbers a and b, write a function to print all odd numbers between them.
+
 #include<iostream>
 using namespace std;
 void printOddNumber(int a,int b){
@@ -14,3 +16,7 @@ main(){
     printOddNumber(a,b);
 
 }
+                     /* Output
+                       Odd numbers between 1 and 10 are:
+                       1 3 5 7 9 
+                     */
