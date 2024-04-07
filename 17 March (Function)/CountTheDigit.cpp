@@ -10,7 +10,7 @@ void CountTheNumber(int number){
         digit++;
     }
     cout<<"Number Of Digit: "<<digit<<endl;
-    cout<<"Number Of Squar: "<<number*number<<endl;
+    cout<<"Number Of Squar: "<<digit*digit<<endl;
 }  
 main(){
     int a=12345;
@@ -19,5 +19,5 @@ main(){
 }
                             /*  Output
                                 Number Of Digit: 5
-                                Number Of Square: 152399025
+                                Number Of Square: 25
                             */
