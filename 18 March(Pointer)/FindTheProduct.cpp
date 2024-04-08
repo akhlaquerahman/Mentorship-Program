@@ -1,3 +1,5 @@
+            // Write a program to find the product of two numbers using pointers.
+
 #include<iostream>
 using namespace std;
 int FindTheProduct(int *a,int *b){
@@ -19,3 +21,8 @@ main(){
     cout << "Product of " << *ptr1 << " and " << *ptr2 << " is: " << product << endl;
 
 }
+                                /*  Output
+                                    Enter The First Number: 5
+                                    Enter The Second Number:  3
+                                     Product of 5 and  3 is: 15
+                                */
