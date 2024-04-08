@@ -1,3 +1,5 @@
+                    //Find the second largest element in the given Array in one pass.
+
 #include<iostream>
 using namespace std;
 
@@ -20,3 +22,6 @@ using namespace std;
     cout << "Second largest element: " << secondLargest << endl;
     
 }
+                    /*  Output
+                        Second largest element: 14 
+                    */
