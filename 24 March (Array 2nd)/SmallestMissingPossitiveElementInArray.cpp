@@ -1,3 +1,5 @@
+//WAP to find the smallest missing positive element in the sorted Array that contains only positive elements.
+
 #include<iostream>
 using namespace std;
 main(){
@@ -12,3 +14,6 @@ main(){
     }
     cout<<"Smallest Missing Possitive Element: "<<missing;
 }
+                /*  Output
+                    Smallest Missing Possitive Element: 4
+                */
