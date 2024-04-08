@@ -1,3 +1,6 @@
+                        //Find the element x in the array . Take array and x as input.
+
+
 #include<iostream>
 using namespace std;
 main(){
@@ -13,3 +16,7 @@ main(){
         }
     }
 }
+                                /*  Output
+                                    Enter the Element You want to find in index: 40
+                                    Your Find Number is here in index: 3
+                                */
