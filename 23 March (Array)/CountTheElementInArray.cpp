@@ -1,3 +1,6 @@
+            //Count the number of elements in given array greater than a given number x.
+
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -7,3 +10,6 @@ int main(){
     
     return 0;
 }
+                                    /*  Output
+                                        The Total Element in Array: 5
+                                    */
