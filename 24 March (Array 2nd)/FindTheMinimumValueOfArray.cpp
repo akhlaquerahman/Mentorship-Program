@@ -1,3 +1,5 @@
+                //Find the minimum value out of all elements in the array.
+
 #include<iostream>
 using namespace std;
   main(){
@@ -11,3 +13,6 @@ using namespace std;
     }
     cout<<"The Minimum Value Of Array: "<<min;
 }
+                                /*  Output
+                                    The Minimum Value Of Array: 14
+                                */
