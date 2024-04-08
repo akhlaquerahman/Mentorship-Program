@@ -1,3 +1,5 @@
+                //Calculate the product of all the elements in the given array.
+
 #include<iostream>
 using namespace std;
  main(){
@@ -9,3 +11,7 @@ using namespace std;
     }
     cout<<"The Product Of This Element: "<<product;
 }
+
+                            /*  Output
+                                The Product Of This Element: 8640 
+                            */
