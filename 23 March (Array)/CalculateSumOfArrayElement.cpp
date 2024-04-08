@@ -1,3 +1,5 @@
+        //Calculate the sum of all the elements in the given array.
+
 #include<iostream>
 using namespace std;
 main(){
@@ -9,3 +11,6 @@ main(){
     }
     cout<<"The Sum Of Element in Array: "<<sum;
 }
+                        /*  Output
+                           The Sum Of Element in Array: 92 
+                        */
