@@ -1,3 +1,5 @@
+                    //Find the maximum value out of all the elements in the array.
+
 #include<iostream>
 using namespace std;
 main(){
@@ -11,3 +13,6 @@ main(){
     }
     cout<<"Your Maximum Value in index: "<<max;
 }
+                                /*  Output
+                                    Your Maximum Value in index: 24
+                                */
