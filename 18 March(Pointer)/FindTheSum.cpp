@@ -1,3 +1,5 @@
+                //Write a program to find the sum of two numbers using pointers
+
 #include<iostream>
 using namespace std;
 int FindTheSum(int *a,int *b){
@@ -19,3 +21,8 @@ main(){
     cout << "Sum of " << *ptr1 << " and " << *ptr2 << " is: " << Sum << endl;
 
 }
+                        /*  Output
+                            Enter The First Number: 5
+                            Enter The Second Number: 8
+                            Sum of 5 and 8 is: 13
+                        */
