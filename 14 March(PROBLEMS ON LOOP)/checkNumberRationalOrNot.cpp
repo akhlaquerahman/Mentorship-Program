@@ -1,26 +1,25 @@
-                       // WAP to check if a number is prime or not (use of break statement)      
+                       // WAP to check if a number is Rational or not (use of break statement)
 #include<iostream>
 using namespace std;
+main(){
+    int p,q;
+    int RationalNumber;
 
-int main()
-{
-    int n,check=0;
-    cout<<"Enter The Number: ";
-    cin>>n;
-    
-    for(int i=1; i<=n; i++){
-        if(n%i==0){
-            check++;
-        }
-    }
-    if(check==2){
-        cout<<"It is Prime Number: "<<n;
+    cout<<"Enter The Number Of P: ";
+    cin>>p;
+
+    cout<<"Enter The Number Of Q: ";
+    cin>>q;
+
+    RationalNumber=p/q;
+
+    if(q!=0){
+        cout<<"It is Prime Numbers: ";
     }
     else{
-        cout<<"It is Not Prime Number: "<<n;
+        cout<<"It is Not Prime Number: ";
     }
-    return 0;
-}                          
+}              
                         /*  Output
                         Enter The Number Of P: 4
                         Enter The Number Of Q: 2
