@@ -22,11 +22,9 @@ int main()
     return 0;
 }                          
                         /*  Output
-                        Enter The Number Of P: 4
-                        Enter The Number Of Q: 2
-                        It is Prime Numbers:
+                        Enter The Number: 7
+                        It is Prime Number: 7
 
-                        Enter The Number Of P: 4
-                        Enter The Number Of Q: 0
-                        It is Not Prime Number:
+                        Enter The Number: 10
+                        It is Not Prime Number: 10
                         */
