@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-int main() {
+main() {
 int a = 4;
 int b = 5;
 a++, b--;
