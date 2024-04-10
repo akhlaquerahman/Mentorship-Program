@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-main(){
+int main(){
     float r,Area;
     float pie=3.14;
     cout<<"Enter the radius: = ";
@@ -10,6 +10,7 @@ main(){
 
     Area=pie*r*r;
     cout<<"Area of Circle: = "<<Area;
+    return 0;
 }
 
                             /*  Output
