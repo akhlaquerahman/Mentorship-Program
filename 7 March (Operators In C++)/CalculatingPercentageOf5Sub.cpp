@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-main()
+int main()
 {
     float math,phy,che,eng,hindi,total,percentage;
     cout<<"Enter the Marks of Mathematics: ";
@@ -21,6 +21,7 @@ main()
 
     percentage=total/5;
     cout<<"Your percentage is: = "<<percentage<<"%";
+    return 0;
 }
 
                                    /*            Output.
