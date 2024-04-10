@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-main(){
+int main(){
     float principle,rate,time,SimpleIntrest;
     cout<<"Enter the Principle Amount: = ";
     cin>>principle;
@@ -14,7 +14,9 @@ main(){
     SimpleIntrest=(principle*rate*time)/100;
 
     cout<<"Your Simple Intrest: = "<<SimpleIntrest;
+    return 0;
 }
+
 
                                     /*  Output.
                                     Enter the Principle Amount: = 500
