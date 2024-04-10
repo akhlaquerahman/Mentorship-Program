@@ -2,13 +2,13 @@
 
 #include<iostream>
  using namespace std;
- main(){
+ int main(){
     float r,pi=3.14,circumference;
     cout<<"Enter the Radius: = ";
     cin>>r;
     circumference=2*pi*r;
     cout<<"The Circumference: = "<<circumference;
-    
+    return 0;
  }
 
                                     /*  Output.
