@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-main(){
+int main(){
     int a;
     cout<<"Enter an Integer: = ";
     cin>>a;
