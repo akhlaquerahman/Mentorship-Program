@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-main(){
+int main(){
     float radius,area,circumference;
     float pi=3.14;
     cout<<"Enter the Radius: = ";
