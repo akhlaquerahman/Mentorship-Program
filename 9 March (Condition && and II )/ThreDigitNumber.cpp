@@ -1,7 +1,7 @@
                         //Take positive integer input and tell if it is a three digit number or not.
 #include<iostream>
 using namespace std;
-main(){
+int main(){
     int a;
     cout<<"Enter a Number: ";
     cin>>a;
