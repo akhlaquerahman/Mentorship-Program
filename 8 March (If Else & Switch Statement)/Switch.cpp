@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-main(){
+int main(){
     int day;
     cout<<"enter the serial number of day: = ";
     cin>>day;
