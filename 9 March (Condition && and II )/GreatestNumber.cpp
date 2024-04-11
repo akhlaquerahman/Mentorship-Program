@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-main(){
+int main(){
     int a,b,c;
     cout<<"Enter the three Number: ";
     cin>>a>>b>>c;
