@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-int main(){
+main(){
     float r,Area;
     float pie=3.14;
     cout<<"Enter the radius: = ";
