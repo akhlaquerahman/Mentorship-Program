@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-int main()
+main()
 {
     float math,phy,che,eng,hindi,total,percentage;
     cout<<"Enter the Marks of Mathematics: ";
