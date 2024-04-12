@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-int main(){
+main(){
     float principle,rate,time,SimpleIntrest;
     cout<<"Enter the Principle Amount: = ";
     cin>>principle;
