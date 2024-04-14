@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
- main() {
+int main() {
     int array[5] = {7,2,14,8,15};
     
     int largest = array[0];        //7
