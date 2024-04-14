@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
- main(){
+int main(){
     int a[5]={6,8,5,4,9};
     int product=1;
 
