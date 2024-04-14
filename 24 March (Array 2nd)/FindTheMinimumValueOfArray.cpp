@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-  main(){
+int  main(){
     int a[5]={15,14,20,24,18};
     int min=a[0];
 
