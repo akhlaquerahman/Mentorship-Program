@@ -5,7 +5,7 @@ equal to the given value x (LEETCODE TWO SUM)*/
 
 #include<iostream>
 using namespace std;
- main(){
+int main(){
     int i,j,n,x;
     int a[100];
 
