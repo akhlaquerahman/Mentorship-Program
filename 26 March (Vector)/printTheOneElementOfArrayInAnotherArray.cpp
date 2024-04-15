@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
- main(){
+int main(){
     int i,n;
     int a[100];
     cout<<"enter the value of n:";
