@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
+ main() {
     const int numStudents = 4;
     const int numSubjects = 2; // Assuming 2 subjects for simplicity
 
@@ -32,7 +32,7 @@ int main() {
         cout << endl;
     }
 
-    return 0;
+    
 }
                         /*  Output
                             Enter roll number for student 1: 1323445
