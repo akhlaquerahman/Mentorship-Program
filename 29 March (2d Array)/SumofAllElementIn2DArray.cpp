@@ -15,7 +15,7 @@ int calculateMatrixSum(const vector<vector<int>>& matrix) {
     return sum;
 }
 
-int main() {
+ main() {
     // Example 2D matrix
     vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
@@ -25,7 +25,7 @@ int main() {
     // Output the result
     cout << "Sum of all elements of the matrix: " << sum << endl;
 
-    return 0;
+    
 }
                             /*  Output
                                 Sum of all elements of the matrix: 45
