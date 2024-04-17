@@ -26,7 +26,7 @@ void printMatrix(const vector<vector<int>>& matrix) {
     }
 }
 
-int main() {
+ main() {
     // Example matrix
     vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
@@ -38,7 +38,7 @@ int main() {
     cout << "Matrix after transposition:\n";
     printMatrix(matrix);
 
-    return 0;
+    
 }
                             /*  Output
                                 Original Matrix:
