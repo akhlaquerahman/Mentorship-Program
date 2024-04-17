@@ -29,7 +29,7 @@ void printMatrix(const vector<vector<int>>& matrix) {
     }
 }
 
-int main() {
+ main() {
     int rows, cols;
 
     // Get the dimensions of the matrix from the user
@@ -57,7 +57,7 @@ int main() {
     cout << "Transpose Matrix:\n";
     printMatrix(transpose);
 
-    return 0;
+    
 }
                             /*  Output
                                 Enter the number of rows: 2
