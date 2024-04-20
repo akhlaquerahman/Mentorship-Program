@@ -15,7 +15,7 @@ int calculateMatrixSum(const vector<vector<int>>& matrix) {
     return sum;
 }
 
- main() {
+int main() {
     // Example 2D matrix
     vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
