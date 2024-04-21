@@ -17,7 +17,7 @@ int findLargestElement(const vector<vector<int>>& arr) {
     return maxElement;
 }
 
- main() {
+int main() {
     // Example 2D array
     vector<vector<int>> arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
