@@ -29,7 +29,7 @@ void printMatrix(const vector<vector<int>>& matrix) {
     }
 }
 
- main() {
+int main() {
     int rows, cols;
 
     // Get the dimensions of the matrix from the user
