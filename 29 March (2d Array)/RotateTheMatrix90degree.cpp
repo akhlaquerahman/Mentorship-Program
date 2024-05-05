@@ -30,7 +30,7 @@ void printMatrix(const vector<vector<int>>& matrix) {
     }
 }
 
- main() {
+int main() {
     // Example matrix
     vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 
