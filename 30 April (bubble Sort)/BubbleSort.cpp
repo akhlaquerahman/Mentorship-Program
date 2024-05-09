@@ -3,7 +3,7 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
-int main(){
+ main(){
     int arr[5]={10,6,2,7,3};
 
     for(int i=0; i<4; i++){
