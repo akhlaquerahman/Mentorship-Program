@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main() {
+ main() {
     const int numStudents = 4;
     const int numSubjects = 2; // Assuming 2 subjects for simplicity
 
