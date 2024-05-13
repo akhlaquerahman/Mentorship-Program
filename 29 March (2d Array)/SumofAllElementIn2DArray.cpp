@@ -1,32 +1,26 @@
         //Write a program to print sum of all the elements of a 2D matrix.
 
 #include <iostream>
-#include <vector>
-
 using namespace std;
 
-int calculateMatrixSum(const vector<vector<int>>& matrix) {
+main() {
+    int arr[4][4] = {
+        {10, 20, 30, 40},
+        {40, 50, 60, 70},
+        {70, 80, 90, 100},
+        {100, 110, 120, 130}
+    };
     int sum = 0;
-    for (const vector<int>& row : matrix) {
-        for (int element : row) {
-            sum += element;
+
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            sum += arr[i][j];
         }
     }
-    return sum;
-}
 
- main() {
-    // Example 2D matrix
-    vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    cout << "The sum of all the elements in the matrix is: " << sum << endl;
 
-    // Calculate the sum of all elements
-    int sum = calculateMatrixSum(matrix);
-
-    // Output the result
-    cout << "Sum of all elements of the matrix: " << sum << endl;
-
-    
 }
                             /*  Output
-                                Sum of all elements of the matrix: 45
+                                The sum of all the elements in the matrix is: 1120
                             */
