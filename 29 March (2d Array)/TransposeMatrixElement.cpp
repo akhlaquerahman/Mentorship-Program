@@ -1,44 +1,51 @@
             //Write a program to change the given matrix with its transpose. [Leetcode 867]
 
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-void transpose(vector<vector<int>>& matrix) {
-    int rows = matrix.size();
-    int cols = matrix[0].size();
+int main() {
+    int m, n;
 
-    // Swap elements along the diagonal
-    for (int i = 0; i < rows; ++i) {
-        for (int j = i + 1; j < cols; ++j) {
-            swap(matrix[i][j], matrix[j][i]);
+    cout << "Enter the number of rows: ";
+    cin >> m;
+    cout << "Enter the number of columns: ";
+    cin >> n;
+
+    int matrix[10][10];
+    cout << "Enter the elements of the matrix:" << endl;
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> matrix[i][j];
         }
     }
-}
 
-void printMatrix(const vector<vector<int>>& matrix) {
-    for (const vector<int>& row : matrix) {
-        for (int element : row) {
-            cout << element << " ";
+    cout << "Original Matrix:" << endl;
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << matrix[i][j] << " ";
         }
         cout << endl;
     }
-}
 
- main() {
-    // Example matrix
-    vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    for (int i = 0; i < m; i++) {
+        for (int j = i + 1; j < n; j++) {
+            // Swap matrix[i][j] with matrix[j][i]
+            int temp = matrix[i][j];
+            matrix[i][j] = matrix[j][i];
+            matrix[j][i] = temp;
+        }
+    }
 
-    cout << "Original Matrix:\n";
-    printMatrix(matrix);
+    cout << "Matrix after transposing:" << endl;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cout << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    transpose(matrix);
-
-    cout << "Matrix after transposition:\n";
-    printMatrix(matrix);
-
-    
+    return 0;
 }
                             /*  Output
                                 Original Matrix:
