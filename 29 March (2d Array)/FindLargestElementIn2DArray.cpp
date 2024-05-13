@@ -1,33 +1,22 @@
                 //Write a C++ program to find the largest element of a given 2D array of integers
 
 #include <iostream>
-#include <vector>
-
 using namespace std;
 
-int findLargestElement(const vector<vector<int>>& arr) {
-    int maxElement = arr[0][0];
-    for (const vector<int>& row : arr) {
-        for (int element : row) {
-            if (element > maxElement) {
-                maxElement = element;
+main() {
+    int arr[3][3] = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
+    int largest = arr[0][0];
+
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            if (arr[i][j] > largest) {
+                largest = arr[i][j];
             }
         }
     }
-    return maxElement;
-}
 
- main() {
-    // Example 2D array
-    vector<vector<int>> arr = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    cout << "The largest element in the matrix is: " << largest << endl;
 
-    // Find the largest element
-    int largestElement = findLargestElement(arr);
-
-    // Output the result
-    cout << "Largest element in the 2D array: " << largestElement << endl;
-
-    
 }
                         /*  output
                             Largest element in the 2D array: 9
