@@ -1,79 +1,53 @@
     //Write a program to print the transpose of the matrix entered by the user and store it in a new matrix. 
 
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-vector<vector<int>> transposeMatrix(const vector<vector<int>>& matrix) {
-    int rows = matrix.size();
-    int cols = matrix[0].size();
+main() {
+    int m, n;
 
-    vector<vector<int>> transpose(cols, vector<int>(rows));
-
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols; ++j) {
-            transpose[j][i] = matrix[i][j];
-        }
-    }
-
-    return transpose;
-}
-
-void printMatrix(const vector<vector<int>>& matrix) {
-    for (const vector<int>& row : matrix) {
-        for (int element : row) {
-            cout << element << " ";
-        }
-        cout << endl;
-    }
-}
-
- main() {
-    int rows, cols;
-
-    // Get the dimensions of the matrix from the user
     cout << "Enter the number of rows: ";
-    cin >> rows;
+    cin >> m;
     cout << "Enter the number of columns: ";
-    cin >> cols;
+    cin >> n;
 
-    // Input matrix elements from the user
-    vector<vector<int>> matrix(rows, vector<int>(cols));
+    int matrix[10][10];
     cout << "Enter the elements of the matrix:" << endl;
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols; ++j) {
-            cout << "Enter element [" << i << "][" << j << "]: ";
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
             cin >> matrix[i][j];
         }
     }
 
-    // Calculate the transpose of the matrix
-    vector<vector<int>> transpose = transposeMatrix(matrix);
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            int temp = matrix[i][j];
+            matrix[i][j] = matrix[j][i];
+            matrix[j][i] = temp;
+        }
+    }
 
-    // Output the original and transpose matrices
-    cout << "Original Matrix:\n";
-    printMatrix(matrix);
-    cout << "Transpose Matrix:\n";
-    printMatrix(transpose);
+    cout << "The transposed matrix is:" << endl;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cout << matrix[i][j] << " ";
+        }
+        cout << endl;
+    }
 
-    
 }
-                            /*  Output
-                                Enter the number of rows: 2
-                                Enter the number of columns: 3
-                                Enter the elements of the matrix:
-                                Enter element [0][0]: 1
-                                Enter element [0][1]: 2
-                                Enter element [0][2]: 3
-                                Enter element [1][0]: 4
-                                Enter element [1][1]: 5
-                                Enter element [1][2]: 6
-                                Original Matrix:
-                                1 2 3
-                                4 5 6
-                                Transpose Matrix:
-                                1 4
-                                2 5
-                                3 6
-                            */
+
+
+                        /*
+                                OUTPUT:- 
+                        Enter the number of rows: 3
+                        Enter the number of columns: 2
+                        Enter the elements of the matrix:
+                        10 20
+                        30 40
+                        50 60
+                        The transposed matrix is:
+                        10 20 50 
+                        30 40 60 
+*/                             
