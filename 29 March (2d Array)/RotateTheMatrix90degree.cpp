@@ -1,48 +1,47 @@
         //Write a program to rotate the matrix by 90 degrees clockwise. [Leetcode 48] 
 
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
-void rotate(vector<vector<int>>& matrix) {
-    int n = matrix.size();
+const int MAX = 10;
 
-    // Transpose the matrix
-    for (int i = 0; i < n; ++i) {
-        for (int j = i + 1; j < n; ++j) {
-            swap(matrix[i][j], matrix[j][i]);
+int main() {
+    int n;
+
+    cout << "Enter the number of rows/columns of the square matrix: ";
+    cin >> n;
+
+    int mat[MAX][MAX];
+    cout << "Enter the elements of the matrix:" << endl;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> mat[i][j];
         }
     }
 
-    // Reverse each row
-    for (int i = 0; i < n; ++i) {
-        (matrix[i].begin(), matrix[i].end());
+    int temp[MAX][MAX];
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            temp[j][n - 1 - i] = mat[i][j];
+        }
     }
-}
 
-void printMatrix(const vector<vector<int>>& matrix) {
-    for (const vector<int>& row : matrix) {
-        for (int element : row) {
-            cout << element << " ";
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            mat[i][j] = temp[i][j];
+        }
+    }
+
+    cout << "Matrix after rotating by 90 degrees clockwise:" << endl;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << mat[i][j] << " ";
         }
         cout << endl;
     }
-}
 
- main() {
-    // Example matrix
-    vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-
-    cout << "Original Matrix:\n";
-    printMatrix(matrix);
-
-    rotate(matrix);
-
-    cout << "Matrix after rotating 90 degrees clockwise:\n";
-    printMatrix(matrix);
-
-    
+    return 0;
 }
 
                                     /*  Output
