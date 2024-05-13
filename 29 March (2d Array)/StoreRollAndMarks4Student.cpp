@@ -4,23 +4,41 @@
 using namespace std;
 
 main() {
-    int arr[4][4] = {
-        {10, 20, 30, 40},
-        {40, 50, 60, 70},
-        {70, 80, 90, 100},
-        {100, 110, 120, 130}
-    };
-    int sum = 0;
+    int matrix[4][2];    
 
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
-            sum += arr[i][j];
-        }
+    int i, j;
+
+    for (i = 0; i < 4; i++) {
+        cout << "\n Enter Roll of Student [" << i + 1 << "]";
+        cin >> matrix[i][0];
+        cout << "\n Enter Mark of Student [" << i + 1 << "]";
+        cin >> matrix[i][1];
     }
-
-    cout << "The sum of all the elements in the matrix is: " << sum << endl;
+    
+    for (i = 0; i < 4; i++) {
+        cout << "\n Roll No :  " << matrix[i][0] << "   Marks : " << matrix[i][1];
+    }
 
 }
                         /*  Output
-                            The sum of all the elements in the matrix is: 1120
+                            Enter Roll of Student [1]2
+
+                            Enter Mark of Student [1]3
+
+                            Enter Roll of Student [2]6
+
+                            Enter Mark of Student [2]5
+
+                            Enter Roll of Student [3]1
+
+                            Enter Mark of Student [3]7
+
+                            Enter Roll of Student [4]9
+
+                            Enter Mark of Student [4]2
+
+                            Roll No :  2   Marks : 3
+                            Roll No :  6   Marks : 5
+                            Roll No :  1   Marks : 7
+                            Roll No :  9   Marks : 2
                         */
