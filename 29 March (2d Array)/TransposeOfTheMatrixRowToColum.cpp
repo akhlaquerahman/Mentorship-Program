@@ -4,7 +4,7 @@
 
 using namespace std;
 
-main() {
+int main() {
     int m, n;
 
     cout << "Enter the number of rows: ";
