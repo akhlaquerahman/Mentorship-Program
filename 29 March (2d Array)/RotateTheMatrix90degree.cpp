@@ -6,7 +6,7 @@ using namespace std;
 
 const int MAX = 10;
 
-int main() {
+ main() {
     int n;
 
     cout << "Enter the number of rows/columns of the square matrix: ";
