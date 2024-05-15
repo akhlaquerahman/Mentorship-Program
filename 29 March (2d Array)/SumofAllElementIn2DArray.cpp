@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+ main() {
     int arr[4][4] = {
         {10, 20, 30, 40},
         {40, 50, 60, 70},
