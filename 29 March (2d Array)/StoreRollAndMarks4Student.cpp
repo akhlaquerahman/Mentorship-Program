@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+ main() {
     int matrix[4][2];    
 
     int i, j;
