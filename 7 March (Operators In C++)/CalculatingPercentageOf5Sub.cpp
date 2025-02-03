@@ -19,7 +19,8 @@ main()
     total=math+phy+che+eng+hindi;
     cout<<"Your Total Marks: = "<<total<<endl;
 
-    percentage=total/5;
+    percentage=total/5;                                 //percentage = Total number * 100 / full marks
+                                                        // percentage = 342 * 100 / 500            => 68.4%
     cout<<"Your percentage is: = "<<percentage<<"%";
     return 0;
 }
